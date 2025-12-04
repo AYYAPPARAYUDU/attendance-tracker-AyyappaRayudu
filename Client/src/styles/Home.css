@@ -1,0 +1,40 @@
+.attendance-container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Allow full page to scroll normally */
+.home {
+  height: auto !important;
+  min-height: 100vh;
+  overflow: visible !important;
+
+   display: flex;
+  flex-wrap: nowrap;
+}
+
+/* Sidebar should take full height but not block scroll */
+.sidebar {
+  height: auto !important;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Main content must scroll if content grows */
+.main-content {
+  height: auto;
+  min-height: 100vh;
+  overflow-y: auto;     /* 🔥 this is the key fix */
+}

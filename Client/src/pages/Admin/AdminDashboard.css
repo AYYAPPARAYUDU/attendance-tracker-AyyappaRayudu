@@ -1,0 +1,25 @@
+.admin-section {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.rounded-table {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.table-dark th {
+  background: #343a40 !important;
+  color: white !important;
+}
