@@ -55,13 +55,7 @@ const AdminSideBar = ({ setCurrentPage }) => {
           <MdAssignmentAdd size={20} /> Assign Tasks
         </Link>
 
-        <Link
-          to="/admin-projects"
-          className={`admin-link ${active === "/admin-projects" ? "active" : ""}`}
-          onClick={() => updatePage("adminProjects")}
-        >
-          <SiCodeproject size={20} /> Projects
-        </Link>
+        
 
       </div>
 
